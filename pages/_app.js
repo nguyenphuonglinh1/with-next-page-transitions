@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
         timeout={TIMEOUT}
         classNames="page-transition"
         loadingComponent={<Loader />}
-        loadingDelay={500}
+        loadingDelay={0}
         loadingTimeout={{
           enter: TIMEOUT,
           exit: 0,
